@@ -100,6 +100,12 @@ The script:
 - checks the logs for expected TCP ACK and heartbeat lines
 - exits with an error if any expected log line is missing
 
+## Result
+
+The screenshot below shows the monitoring system running successfully, with the server accepting the client and the client exchanging register, heartbeat, and ACK messages:
+
+![TCP/UDP device monitoring result](results.png)
+
 ## Runtime Behavior
 
 - The client sends a UDP heartbeat every `HEARTBEAT_INTERVAL_SEC`.
