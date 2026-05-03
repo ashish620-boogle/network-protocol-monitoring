@@ -1,0 +1,9 @@
+client.exe
+server.exe
+client
+server
+
+.smoke-test/
+.vscode/
+
+results.png
